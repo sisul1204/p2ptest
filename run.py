@@ -7,7 +7,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 print(sys.path)
-from libs.HTMLTestRunnerNew import HTMLTestRunnerNew
+from libs import HTMLTestRunnerNew
 from scripts.constants import REPORTS_DIR
 from scripts.handle_config import do_config
 from datetime import datetime
